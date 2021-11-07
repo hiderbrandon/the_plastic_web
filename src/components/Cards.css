@@ -1,0 +1,9 @@
+.Cards {
+    font-family: 'Oxygen', sans-serif;
+    background: rgb(68, 94, 109);
+    box-sizing:border-box;
+    align-self: center;
+    margin: auto;
+    width: 60%;
+  
+  }

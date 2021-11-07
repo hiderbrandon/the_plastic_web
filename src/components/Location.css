@@ -1,0 +1,18 @@
+.LocationWrapper{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50px 1fr;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:487px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:487px;
+}

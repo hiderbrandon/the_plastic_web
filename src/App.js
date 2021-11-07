@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App" >
       <h2>slider</h2>
-      <div><Slider></Slider></div>
+      <Slider></Slider>
       <h2>Catalog</h2>
-      <div><Cards></Cards></div>
+      <Cards></Cards>
       <h2>Location</h2>
-      <div className="LocationWrapper"><Location></Location></div>
+      <Location></Location>
     </div>
   );
 }

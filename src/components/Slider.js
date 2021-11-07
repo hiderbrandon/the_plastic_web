@@ -6,7 +6,7 @@ const Slider = () => {
     return (
         <div>
             <Carousel>
-                <CarouselItem interval={2000}>
+                <CarouselItem interval={3000}>
                     <img
                         className="d-block w-100"
                         src="https://picsum.photos/700/200"
@@ -17,7 +17,7 @@ const Slider = () => {
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </CarouselItem>
-                <Carousel.Item>
+                <CarouselItem interval={3000}>> 
                     <img
                         className="d-block w-100"
                         src="https://picsum.photos/700/200"
@@ -28,8 +28,8 @@ const Slider = () => {
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
+                </CarouselItem>
+                <CarouselItem interval={3000}>>
                     <img
                         className="d-block w-100"
                         src="https://picsum.photos/700/200"
@@ -40,7 +40,7 @@ const Slider = () => {
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
-                </Carousel.Item>
+                </CarouselItem>
             </Carousel>
         </div>
     )
